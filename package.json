@@ -1,0 +1,31 @@
+{
+    "name": "tecno-belvi-api",
+    "version": "1.0.0",
+    "description": "Api ",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GonzaloBelvisi/Tecno-Belvi-api.git"
+    },
+    "keywords": [
+        "noticias",
+        "info"
+    ],
+    "author": "Gonzalo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GonzaloBelvisi/Tecno-Belvi-api/issues"
+    },
+    "homepage": "https://github.com/GonzaloBelvisi/Tecno-Belvi-api#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1",
+        "pg": "^8.7.3",
+        "sequelize": "^6.19.0",
+        "sqlite3": "^5.0.5"
+    }
+}
